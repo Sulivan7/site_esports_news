@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #159a9c;
+  --primary-color: #4f51be;
   --second-color: #002333;
   --tertiary-color: #b4bec9;
   --text-color: #ffffff;
@@ -30,7 +30,7 @@ header nav li {
 header nav li a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -48,6 +48,7 @@ header li a {
 
 header a:hover {
   color: var(--second-color);
+  transition: 0.8s;
 }
 
 .container {
@@ -62,14 +63,15 @@ header a:hover {
 }
 
 .articles article img {
-  width: 70%;
+  width: 80%;
   border: 1px solid var(--primary-color);
-  border-radius: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .articles article {
-  width: 33.3%;
-  padding: 50px;
+  width: 33%;
+  padding: 35px;
 }
 
 section {
@@ -80,6 +82,7 @@ section h2,
 articles {
   margin: 20px;
   text-align: center;
+  font-size: 32px;
 }
 
 .articles article h3 {
@@ -112,7 +115,7 @@ h2 .articles article {
 
 #e-sports {
   background-color: var(--primary-color);
-  padding: 10px;
+  padding: 60px;
   color: var(--text-color);
 }
 
@@ -133,6 +136,11 @@ h2 .articles article {
   background-color: var(--text-color);
   width: 100%;
   margin: auto;
+}
+
+#contact .articles,
+article iframe {
+  border-radius: 6px;
 }
 
 #contact h2 {
@@ -196,4 +204,5 @@ footer .social-links img {
 .social-links li a {
   text-decoration: none;
   margin: 5px;
+  padding: 2px;
 }
