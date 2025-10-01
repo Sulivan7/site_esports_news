@@ -1,9 +1,12 @@
-# Esportes News
+# 🏆 Esportes News
 
-## Projeto voltado a aprendizagem
+Um site de notícias dedicado ao mundo dos esportes, focando em **Futebol** e **E-Sports**.
 
-<p align="center">
-  <img alt="Preview da pagina Games Shop" src="./images/preview.png" width="100%">
-</p>
+## 📝 Sobre o Projeto
 
-### Link do Projeto - (https://site-esports-news.vercel.app/)
+O **Esportes News** é um site responsivo desenvolvido em HTML, CSS e JavaScript que apresenta as últimas notícias e conteúdos sobre:
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
